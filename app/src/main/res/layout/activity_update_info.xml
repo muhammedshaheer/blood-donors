@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginStart="26dp"
+        android:text="@string/year"
+        android:textColor="@android:color/black"
+        android:textSize="19sp" />
+
+    <Spinner
+        android:background="@drawable/bg_spinner"
+        android:layout_marginTop="14dp"
+        android:id="@+id/l_info_branch"
+        android:layout_width="match_parent"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_below="@+id/textView1"
+        android:layout_height="wrap_content"
+        android:entries="@array/year"
+        android:hint="@string/year_spinner"
+        android:padding="5dp"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/last_donated"
+        android:layout_below="@+id/l_info_branch"
+        android:layout_marginStart="26dp"
+        android:textColor="@android:color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:background="@drawable/bg_spinner"
+        android:layout_marginTop="14dp"
+        android:id="@+id/l_info_view"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="26dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/hint_date"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="26dp"
+        android:layout_below="@+id/textView2"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/l_info_last"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_below="@+id/l_info_view"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="@string/pick_date"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/l_info_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/submit"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:textSize="19sp" />
+
+    <ProgressBar
+        android:id="@+id/l_info_pb"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="155dp" />
+
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".searchResults.Activity_Search_Detailed">
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_details_name"
+        android:textSize="23sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:textColor="@android:color/black"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="60dp"/>
+
+    <RelativeLayout
+        android:id="@+id/l_details_number_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l_details_name"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_spinner">
+
+        <TextView
+            android:id="@+id/l_details_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="15dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="17dp"
+            android:text="1234567899"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:id="@+id/l_details_dialer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:paddingBottom="15dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/ic_call_primary_24dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l_details_number_container"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_spinner">
+
+        <TextView
+            android:id="@+id/l_details_adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:paddingTop="24dp"
+            android:text="TKM16CS0XX"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/l_d_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l_details_adm"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:text="BRANCH :"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/l_d_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/l_d_b"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="PLACE:"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/l_d_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/l_d_p"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="YEAR:"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/l_d_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/l_d_y"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="LAST DONATED:"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/l_details_not"
+        android:layout_below="@+id/l_box"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:gravity="start"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</RelativeLayout>

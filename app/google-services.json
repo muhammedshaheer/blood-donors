@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "725951484156",
+    "firebase_url": "https://blooddonors-7a546.firebaseio.com",
+    "project_id": "blooddonors-7a546",
+    "storage_bucket": "blooddonors-7a546.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725951484156:android:461106238b03579a",
+        "android_client_info": {
+          "package_name": "stepstkmce.blooddonors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725951484156-600hi5onhhh79kgi7tdds2gbsep5u4v2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "stepstkmce.blooddonors",
+            "certificate_hash": "8aaa87ce0eb35f7a1d807c71a8ff2aa9f33903b2"
+          }
+        },
+        {
+          "client_id": "725951484156-cpul09anjigv5frcdmgt30p0u04fv1rg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "stepstkmce.blooddonors",
+            "certificate_hash": "32246999bc49b52ba59dc049b5051eb4beb8aad2"
+          }
+        },
+        {
+          "client_id": "725951484156-gkd575p715p8cfvc39t4l1qv0vdsg2gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8rSFy008OGkrxLP0Ie2f8VkZ-HXWCHxQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725951484156-gkd575p715p8cfvc39t4l1qv0vdsg2gn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

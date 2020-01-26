@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/l_row_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:clickable="true"
+    android:elevation="5dp"
+    app:cardCornerRadius="3dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/l_row_rl"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@android:color/transparent">
+
+            <TextView
+                android:id="@+id/l_row_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="13dp"
+                android:text="TextView"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/l_row_branch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l_row_name"
+                android:layout_marginEnd="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:text="TextView"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/l_row_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l_row_branch"
+                android:layout_marginEnd="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:text="TextView"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+            <TextView
+                android:id="@+id/l_row_dtext"
+                android:layout_below="@+id/l_row_rl"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:text="Can donate only after 2 month 27 days"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content" />
+
+        <ImageButton
+
+            android:id="@+id/l_row_settings"
+            android:scaleX="1.7"
+            android:layout_below="@+id/l_row_dtext"
+            android:scaleY="1.7"
+            android:layout_marginStart="130dp"
+            android:src="@drawable/ic_settings_primary_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_btn_bg"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="13dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+
+            />
+        <ImageButton
+            android:layout_toEndOf="@+id/l_row_settings"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="15dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:id="@+id/l_row_call"
+            android:scaleX="1.5"
+            android:layout_marginTop="10dp"
+
+            android:scaleY="1.5"
+            android:layout_below="@+id/l_row_dtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_call_primary_24dp"
+            android:background="@drawable/img_btn_bg"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/l_row_llh"
+            android:layout_below="@id/l_row_dtext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

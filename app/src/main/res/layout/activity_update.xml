@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updateInfo.UpdateActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/l_update_rv"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/l_update_name"
+        android:layout_height="match_parent" />
+
+    <EditText
+        android:id="@+id/l_update_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:focusable="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_spinner"
+        android:layout_marginStart="10dp"
+        android:hint="Enter Name"
+        android:paddingBottom="12dp"
+        android:paddingStart="10dp"
+        android:paddingTop="12dp"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/l_update_pb"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

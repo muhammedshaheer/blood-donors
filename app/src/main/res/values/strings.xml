@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Blood Donors</string>
+    <string name="submit">submit</string>
+    <string name="pick_date">pick date</string>
+    <string name="year">YEAR</string>
+    <string name="year_spinner">year</string>
+    <string name="last_donated">LAST DONATED</string>
+    <string name="hint_date">08-01-2018</string>
+
+    <string-array name="blood_types">
+        <item>A+</item>
+        <item>A-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="place_list">
+        <item>Alappuzha</item>
+        <item>Ernakulam</item>
+        <item>Idukki</item>
+        <item>Kannur</item>
+        <item>Kasargod</item>
+        <item>Kollam</item>
+        <item>Kottayam</item>
+        <item>Kozhikode</item>
+        <item>Malappuram</item>
+        <item>Palakkad</item>
+        <item>Pathanamthitta</item>
+        <item>Thiruvananthapuram</item>
+        <item>Thrissur</item>
+        <item>Wayanad</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>

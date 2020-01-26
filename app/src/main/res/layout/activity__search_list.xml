@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".searchResults.Activity_SearchList">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/l_search_count_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:text="TOTAL COUNT: 150"/>
+    <TextView
+        android:paddingTop="5dp"
+        android:id="@+id/l_search_count_non"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:layout_below="@+id/l_search_count_total"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:paddingBottom="10dp"
+        android:text="CANNOT DONATE: 150"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/l_search_list"
+        android:layout_height="match_parent"
+        android:layout_below="@id/l_search_count_non"/>
+
+</RelativeLayout>

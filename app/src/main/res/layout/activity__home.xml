@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.Activity_Home">
+
+    <Spinner
+        android:id="@+id/l_home_sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="129dp"
+        android:background="@drawable/bg_spinner"
+        android:entries="@array/blood_types"
+        android:paddingBottom="10dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="10dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/l_home_place"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/l_home_sp"
+        android:layout_below="@+id/l_home_sp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_spinner"
+        android:hint="Enter Place"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:inputType="textPersonName"
+        android:focusable="true"
+        android:paddingBottom="12dp"
+        android:paddingStart="10dp"
+        android:paddingTop="12dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/l_home_btnSubmit"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_bg"
+        android:textSize="20sp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="submit" />
+
+    <ProgressBar
+        android:id="@+id/l_home_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="124dp" />
+
+    <Button
+        android:id="@+id/l_home_update"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@android:color/transparent"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update User Informations" />
+</RelativeLayout>
